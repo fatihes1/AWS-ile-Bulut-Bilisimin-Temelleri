@@ -1,0 +1,3 @@
+﻿# ÖZET
+
+Bu kılavuz içerisinde bulut bilişimin popüler hale gelmesine neden olan teknolojilere, temel konseptlere, bulut bilişimin tarihine, Amazon.com bünyesinde bulunan Amazon Web Servislerinin tarihine, AWS tarafından sunulan servislere ve bu servislerin nasıl kullanılacağına yer verilmiştir. Bu kılavuz geniş çaplı bir bulut bilişim kılavuzu niteliğindedir. Bulut bilişime ve sunulan servislere dair detaylı bilgiler içermektedir. Servislerin kullanımın alanlarına, gerçek hayat örneklerine senaryolar üzerinden yer verilmiştir. Amazon Web Services tarafından sunulan; IAM, S3, AWS CLI, Glacier ve EC2 gibi birçok temel servisin yanı sıra Direct Connect, Route 53, CloudTrail gibi servislerin de kullanımı hakkında detaylar sunulmuştur.
