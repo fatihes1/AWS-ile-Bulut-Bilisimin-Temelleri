@@ -47,20 +47,20 @@ AWS 2022 mayıs ayı itibariyle bünyesinde;
  
  Küresel çaptaki etkin milyonlarca müşterisi ve on binlerce çözüm ortağıyla AWS, en geniş ve en dinamik ekosisteme sahiptir. Start-up'lar, kuruluşlar ve kamu sektörü kurumları dahil olmak üzere neredeyse her sektörden ve her boyuttaki müşteriler, akla gelebilecek tüm kullanım örneklerini AWS'de çalıştırmaktadır.
  
-XX Şekil
+![9](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/fe5a96fc-0f9d-41f4-83cd-e8a29bbc7836)
 
 Müşteriler, bulut tabanlı altyapılarını barındırmak ve gittikleri her yerde daha iyi performans, güvenlik, güvenilirlik ve ölçek sağlamak için giderek artan oranda AWS'yi tercih ediyor. AWS, raporda adı geçen en iyi 7 satıcı arasından iş gerçekleştirme becerisi ve vizyon bütünlüğü ölçümlerinde ilk sırayı alarak üst üste 11. kez 2021 Gartner Magic Quadrant for Cloud Infrastructure and Platform Services listesinde “Lider” unvanına layık görüldü. 
 
 AWS Cloud, dünya çapındaki 26 coğrafi bölgede 84 erişilebilirlik alanını kapsar. Ayrıca, 24 erişilebilirlik alanının yanı sıra Avustralya, Kanada, Hindistan, İsrail, Yeni Zelanda, İspanya, İsviçre ve Birleşik Arap Emirlikleri'nde (BAE) 8 AWS bölgesinin daha planlandığı açıklanmıştır. Aşağıdaki resimde aktif ve duyurulan bölgeler noktalar ile gösterilmiştir.
 
-XX Şekil
+![10](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/1a2ab3da-ea11-45f6-9479-3c32bccac817)
 
 # 3. AWS Yönetim Konsolu
 AWS Management Console, AWS kaynaklarını yönetmek için geniş bir hizmet konsolları koleksiyonunu içeren ve bunlara atıfta bulunan bir web uygulamasıdır. İlk oturum açtığınızda konsol ana sayfasını görürsünüz. Ana sayfa, her bir hizmet konsoluna erişim sağlar ve AWS ile ilgili görevlerinizi gerçekleştirmek için ihtiyaç duyduğunuz bilgilere erişmek için tek bir yer sunar. Ayrıca son ziyaret edilenler, AWS Health, Trusted Advisor ve daha fazlası gibi widget'lar ekleyerek, kaldırarak ve yeniden düzenleyerek konsol ana sayfası deneyimini özelleştirmenize olanak tanır. 
 
 Bireysel hizmet konsolları ise, bulut bilişim için çok çeşitli araçların yanı sıra hesabınız ve faturalandırmanız hakkında bilgiler sunar.
 
-XX Şekil
+![11](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/cc5e9233-1452-4ed9-9775-61a8775a3a97)
 
 Sağ üstte kullanıcı adının sol tarafında (Şekil: 11’de N.Virginia olarak görünen alan) “region” yani bölge seçilebilmektedir. Kaynaklar hangi bölge üzerinden oluşturulmak istenirse o bölge seçilip servis oluşturma işlemi sonrasında yapılmalıdır. 
 

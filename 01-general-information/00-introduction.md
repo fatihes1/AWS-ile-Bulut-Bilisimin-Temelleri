@@ -8,13 +8,14 @@ Sunucu (Server), hizmet sunan, güçlü ve yüksek kapasiteli işlem gücüne sa
 
 İstemci-sunucu modeli veya istemci-sunucu mimarisi, aynı sistemde bulunan veya bir bilgisayar ağı veya İnternet üzerinden iletişim kuran sunucular ve istemciler arasında görevleri bölen dağıtılmış bir uygulama çerçevesidir. İstemci, bir sunucu tarafından sağlanan bir hizmete erişmek için başka bir programa istek göndermeye güvenir. Sunucu, kaynakları müşterilerle paylaşan ve işleri istemciler arasında dağıtan bir veya daha fazla program çalıştırır. İstemci ile sunucu arasındaki ilişki Şekil: 1’de şematize edilmiştir.
 
-XX ŞEKİL
+![1](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/bc54158c-311c-4d20-b938-757e314df8d8)
+
 
 İstemci sunucu ilişkisi, bir istek-yanıt mesajlaşma modelinde iletişim kurar ve kullanılacak kuralları, dili ve diyalog modellerini resmi olarak tanımlayan ortak bir iletişim protokolüne bağlı kalmalıdır. İstemci-sunucu iletişimi tipik olarak TCP/IP protokol paketine bağlıdır. 
 
 Eski yıllarda bir uygulamanın ayağa kaldırılması için sunucuların sipariş edilip firma bünyesinde barındırılması gerekiyordu. Bu süreç Şekil: 2’de gösterilmiştir.
 
-XX ŞEKİL
+![2](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/db5aa832-8136-46be-b971-0ee0cf588882)
 
 Siparişin temin edilmesinden, kurulmasına; işletim sisteminin makineye kurulmasından, uygulamaların çalıştırılmasına kadar geçen süre yaklaşık olarak üç ayı bulmaktadır.
 
@@ -28,7 +29,7 @@ Atıl kapasite sorunu ve bir sunucuda birden fazla uygulama çalıştırılamama
 
 Sanallaştırma, fiziksel bir bilgi işlem ortamı yerine simülasyon uygulanmış (veya sanal) bir ortam oluşturur. Sanallaştırma çoğu zaman donanımlar, işletim sistemleri, depolama cihazları ve daha fazlasının bilgisayar tarafından oluşturulan sürümlerini içerir. Bu sayede kuruluşlar, tek bir fiziksel bilgisayarı veya sunucuyu birçok sanal makineye bölümleyebilir. Her sanal makine, tek bir konak makinenin kaynaklarını paylaşmasına rağmen bağımsız olarak etkileşimlerde bulunabilir ve farklı işletim sistemleri veya uygulamalar çalıştırabilir.
 
-XX ŞEKİL
+![3](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/13a11cee-91fa-45d0-9c87-91c2104c4e89)
 
 Sanallaştırma sayesinde, aynı fiziksel makine üzerinde birden fazla işletim sistemi çalıştırarak aynı sistemin kullanılması sağlandı. Ana makine kaynaklarını alt sistemlere ortak olarak kullandırarak ana fiziksel sistemin tüm kaynaklarının optimum kullanılmasını sağlamıştır. 
 
@@ -88,12 +89,12 @@ SaaS, hizmet sağlayıcısı tarafından çalıştırılan ve yönetilen tamamla
 ## 3.4. Bulut Bilişim Konseptlerinin Farkları
 Aşağıdaki Şekil: 4 üzerinde göründüğü gibi firma içi kaynakların yönetimi ile bulut konseptleri üzerinden kaynakların yönetilmesi arasında farklar bulunmaktadır. Şirket içerisinde kurulacak bir veri merkezi ile depolamadan işletim sistemine kadar tüm adımlar bilişim departmanı tarafından fiziksel olarak yapılmalıdır. Bulut konseptlerinden olan IaaS yani alt yapının servis olarak sunulması konseptinde sunucu, ağ, sanallaştırma gibi adımları bulut bilişim kullanıcı yerine yapılandırıyor. Aslında bulut bilişimin bu konseptinde kullanıcılara bir adet sanal bilgisayar tanımlanmış oluyor ve kullanıcılar işletim sistemi kurmaktan uygulama yayınlamaya kadar tüm adımları kendileri tamamlamış oluyor. PaaS yani platformun servis olarak sunulması konseptinde ise bulut bilişimin faydalarından yararlanan müşteriler sadece gerekli verilerden ve uygulamanın çalıştırılmasından sorumlu oluyor. Bulut bilişimin son konsepti olan SaaS yani yazılımın servis olarak sunulması konseptinde ise günümüzde kullanılan bulut depolama alanları, e-posta servisleri gibi ürünlerdir. Yani müşteriler sadece sunulan bulut tabanlı ürünü kullanmaktadır.
 
-XX ŞEKİL
+![4](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/87db101c-1ad4-428f-abc3-504e56fcf25c)
 
 # 4. Yazılım Geliştirme Döngüsü
 Yazılım Geliştirme Yaşam Döngüsü (Software Development Life Cycle, SDLC), yazılımları tasarlamak, geliştirmek ve test etmek amaçlı kullanılan bir süreç olarak ifade edebiliriz. Yazılımın nasıl geliştirileceği, sürdürüleceği ve daha iyi hale nasıl getirileceğinin açıklayan bir plandan oluşmaktadır. Buradan da yazılımın aslında bir ürün olduğu ve o ürününde bir yaşam süreci olduğunu gözlemlemiş oluyoruz. SDLC, müşteri isteklerini karşılayacak şekilde süre ve maliyet tahminleri dahilinde tamamlanması sağlanan kaliteli yazılım üretmeyi hedefler. Aynı zamanda SDLC, ISO/IEC 12207 dahilinde uluslararası bir standart olmayı amaçlar.
 
-XX ŞEKİL
+![5](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/8a6b9381-bcf3-4a01-8b6e-e7e95f1bb0f9)
 
 Yazılımın ilk sürüm geliştirmesi bitmeye yakın bir beta sürümü yayınlanır. Beta sürümü test aşamasında kullanıcıların da dahil olduğu bir süreçtir. Yazılım firması ürünün ilk sürümünü (versiyon 1.0) müşteriye teslim eder. Müşteri kendi kaynaklarında ürünü çalıştırır. Bu süreçten sonra ilk sorunlarla ortaya çıkacaktır. Müşteri bunu yazılım firmasına bildirir. Yazılım firması ilk düzenlemesini yani “hotfix” hazırlar ve bu geliştirmeyi de müşteriye gönderir. 
 
@@ -108,13 +109,13 @@ Geliştirme (Dev) ve işlemlerin (Ops) bir bileşeni olan DevOps; müşterilere 
 
 DevOps’un ekipler için anlamı nedir? DevOps, daha iyi ve daha güvenilir ürünler üretmek amacıyla koordinasyon ve iş birliği gerçekleştirmek için, eskiden birbirinden ayrı düşünülen geliştirme, BT operasyonu, kalite mühendisliği ve güvenlik rollerine olanak tanır. DevOps yöntemlerinin ve araçlarının yanı sıra bir DevOps kültürünü benimseyen ekipler müşteri gereksinimlerine daha iyi yanıt verme becerisi kazanıyor, oluşturdukları uygulamalara olan güvenlerini artırabiliyor ve iş hedeflerine daha hızlı bir şekilde ulaşabiliyor.
 
-XX ŞEKİL
+![6](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/ba1629c3-b113-4024-8d7d-987ea487d0f6)
 
 DevOps sayesinde önceden senede iki büyük sürüm yayınlayabilen yazılım firmaları artık günde birkaç küçük yeni versiyonlara erişebilir hale geldi. DevOps fikrinin popüler bir hale gelmesi ile yazılan kodu otomatik olarak bulunduğu depodan alıp test ortamına alan, otomatik test edip stage production’a yollayan uygulamalar geliştirildi. Bu uygulamalara Docker ve Chef en büyük örneklerdir.
 
 # 6. Mikroservis Mimarisi
 
-XX ŞEKİL
+![7](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/e26393ef-4008-4e19-9ec3-43d875bc9277)
 
 Monolitik mimari kendi kendine yetebilecek bir uygulamadaki bütün fonksiyonalitelerin tek bir çatı altında geliştirilmesidir. Ancak monolitik mimarinin bazı dezavantajları vardır:
 
@@ -163,6 +164,6 @@ Konteynerler küçük, hızlı ve taşınabilirdir. Bunun nedeni, sanal bir maki
 
 Konteynerler, ilk olarak, on yıllar önce FreeBSD Jails ve AIX Workload Partitions gibi sürümlerle ortaya çıktı. Ancak çoğu modern geliştirici, 2013 yılını, Docker'ın tanıtılmasıyla birlikte modern konteyner çağının başlangıcı olarak hatırlıyor.
 
-XX ŞEKİL
+![8](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/c04948a3-8081-4025-8c7a-e5a712fc769b)
 
 Kısaca konteynerler birer sanal bilgisayar (Virtual Machine- VM) gibi çalışan ancak sanal bilgisayarlar kadar kaynak tüketmeyen bir yapı olarak tanımlanabilir.
