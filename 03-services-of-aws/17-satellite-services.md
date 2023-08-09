@@ -1,0 +1,7 @@
+﻿# 18. Uydu Servisleri
+## 18.1. AWS Ground Station
+![166](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/d4be3b3f-e295-4f30-a4d8-80391b627154)
+
+Tam olarak yönetilen “Hizmet Olarak Yer İstasyonu” ile uyduları kolayca denetleyebileceğiniz ve verileri alabileceğiniz AWS servisidir. 
+
+AWS Ground Station, kendi yer istasyonu altyapınızı oluşturmak veya yönetmekle uğraşmadan uydu iletişimlerini denetlemenizi, verileri işlemenizi ve işlemlerinizi ölçeklendirmenizi sağlayan, tam olarak yönetilen bir hizmettir. Uydular; hava durumu tahminleri, yüzey görüntüleme, iletişim ve video yayınları dahil olmak üzere çok çeşitli alanlarda kullanılır. Yer istasyonları, küresel uydu ağlarının merkezini oluşturur. AWS Ground Station sayesinde, AWS hizmetlerine ve düşük gecikmeli küresel fiber ağ dahil olmak üzere AWS Küresel Altyapısı'na doğrudan erişebilirsiniz. Örneğin, indirilen verileri depolamak için Amazon S3'ü, uydulardan veri alımını yönetmek için Amazon Kinesis Data Streams'i ve veri kümeleriniz için geçerli olan özel makine öğrenimi uygulamalarını oluşturmak için Amazon SageMaker'ı kullanabilirsiniz. Yalnızca kullanılan gerçek anten süresi için ödeme yaparak ve verileri ihtiyaç duyduğunuz yerde ve zamanda indirmek için yer istasyonlarının küresel ayak izine güvenerek yer istasyonu işlemlerinizin maliyetinde %80'e kadar tasarruf sağlayabilirsiniz. Uzun vadeli taahhütler yoktur ve işiniz gerektirdiğinde uydu iletişimlerinizi istek üzerine hızla ölçeklendirme olanağına sahip olursunuz.
