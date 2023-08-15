@@ -10,9 +10,7 @@
 - [1.2. Sanallaştırma](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/01-general-information/00-introduction.md#2-sanalla%C5%9Ft%C4%B1rma)
 
     [1.2.1. Sunucu-İstemci Modeli](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/01-general-information/00-introduction.md#21-sunucu-i%CC%87stemci-modeli)
-
     [1.2.2. Atıl Kapasite Sorunu](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/01-general-information/00-introduction.md#22-at%C4%B1l-kapasite-sorunu)
-
     [1.2.3. Sanallaştırma Temelleri](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/01-general-information/00-introduction.md#23-sanalla%C5%9Ft%C4%B1rma-temelleri)
 
 -- [1.2.4. Bilişim Altyapısı Oluşturma](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/01-general-information/00-introduction.md#24-bili%C5%9Fim-altyap%C4%B1s%C4%B1-olu%C5%9Fturma)
