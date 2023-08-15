@@ -1,0 +1,19 @@
+﻿# 39. AWS Transfer Family
+AWS Transfer Ailesi, dosyaların SFTP, FTPS, FTP ve AS2 üzerinden AWS Storage hizmetlerine doğrudan aktarımı için tam olarak yönetilen destek sunar. Kimlik doğrulama, erişim ve güvenlik duvarları için mevcut istemci tarafı yapılandırmalarını koruyarak dosya aktarımı iş akışlarınızı sorunsuz bir şekilde taşıyabilir, otomatikleştirebilir ve izleyebilirsiniz; böylece müşterileriniz, iş ortaklarınız ve dahili ekipleriniz veya uygulamaları için hiçbir şey değişmez.
+
+![304](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/e46e2fc2-c71d-41ad-9a78-3e89c9f4898b)
+
+AWS, uç noktanız için yüksek kullanılabilirlik ve performans sağlamak için gereken tüm bilgi işlem, depolama ve diğer altyapıları şeffaf bir şekilde çalıştırır ve yönetir. Uç noktanız günde 24 saat, haftada 7 gün, yılda 365 gün erişilebilir olacak şekilde tasarlanmıştır. Bir AWS bölgesi içindeki birden çok Erişilebilirlik Alanında tam yedekliliğe sahip olursunuz.
+
+AWS Transfer Ailesi, esnek bilgi işlem altyapısıyla dinamik iş yüklerinizin ihtiyaçlarını karşılayabilir. Yerleşik otomatik ölçeklendirme, veri yükleriniz zamanla artarsa ek kaynak sağlama konusunda asla endişelenmenize gerek olmadığı anlamına gelir. Günün belirli saatlerinde veya ayın günlerinde iş yükleri aniden yükselirse endişelenmenize gerek yok.
+
+AWS Transfer Ailesi, Microsoft Active Directory ve Basit Dizin Erişim Protokolü (LDAP) dahil olmak üzere yaygın kullanıcı kimlik doğrulama sistemlerini destekler. Alternatif olarak, kullanıcıların kimlik bilgilerini doğrudan hizmet içinde saklamayı ve yönetmeyi de seçebilirsiniz. Mevcut kimlik sağlayıcınızı AWS Transfer Ailesi hizmetine bağlayarak, harici kullanıcılarınızın veri kaynaklarınıza kesintisiz olarak doğru ve güvenli erişim düzeyine sahip olmaya devam etmesini sağlarsınız.
+
+İş içgörülerini daha hızlı elde edebilmek için, alışveriş yaptığınız dosyaları Amazon S3 klasörünüzde veya Amazon EFS dosya sisteminizde nesne olarak depolayın. Bu alışverişi mümkün kılan en önemli parça, AWS Transfer Ailesinin, ilgili dosya meta verilerini korurken verilerinizi yerel olarak S3 veya EFS'de depolamasıdır. Örneğin, Amazon S3'te depolanan dosyalarınız ile süreç belgelerini uluslararası hedef kitlelere daha uygun hale getirmek için Amazon Translate'i kullanabilirsiniz. Ayrıca metin dosyalarından ilişkiler ve öngörüler çıkarmak için Amazon Comprehend'i kullanabilir veya geçmiş verileri analiz etmek için CSV dosyalarını sorgulamak için Amazon Athena'yı bile kullanabilirsiniz. EFS'deki dosyalara benzer şekilde, iş ortaklarınızdan geldiklerinde bu dosyalara erişmek için ERP sisteminizi doğrudan entegre edebilirsiniz.
+
+Sezgisel bir kullanıcı arabirimi ve API, SFTP, FTPS, FTP veya AS2 uç noktanızı yapılandırmanızı ve istemci erişimini ayarlamanızı kolaylaştırır. Harici kullanıcılar için hizmet, WinSCP, FileZilla ve komut dosyaları gibi yaygın olarak kullanılan SFTP istemcilerini destekler. Kullanıcıların bulutta sizinle veri paylaşmaya devam etmek için davranışlarını değiştirmeleri gerekmez.
+
+AWS Transfer Ailesi ile güvenlik ve kimlik yönetimi için AWS Identity and Access Management'ı (IAM) ve yükleme sonrası işlemeyi başlatmak üzere izleme ve olay tetikleyicileri için Amazon CloudWatch'ı kullanabilirsiniz. Bekleyen şifrelemeyi kontrol etmek için AWS Key Management Service (AWS KMS), Amazon S3 sunucu tarafı şifreleme veya Amazon EFS ile Müşteri Tarafından Yönetilen Anahtarları kullanabilirsiniz. Ayrıca AWS CloudTrail, kullanıcı ve API etkinliğinin ayrıntılı denetimiyle uyumluluk gereksinimlerini karşılamanıza yardımcı olur.
+
+Özetle; bazı durumlarda S3 veya EFS’i direkt kullanamayabiliriz. Bu işlem çoğunlukla protokollerden dolayıdır. Bazı sistemler yeni dosya aktarım yöntemlerine izin vermez iken SFTP, FTP, FTPS gibi protokolleri kullanarak dosya aktarımına izin verebilir. Bu durumlarda AWS Transfer servisi kullanılabilir.
+
