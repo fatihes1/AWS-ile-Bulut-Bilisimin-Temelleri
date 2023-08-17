@@ -1,4 +1,44 @@
-﻿# İÇİNDEKİLER
+﻿# Bulut Bilişim ve AWS ile Temel Kavramlar Rehberi
+
+![aws](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/assets/54971670/55e8cb83-942e-4198-8987-de367fcb823e)
+
+Merhabalar ,
+
+Bu GitHub deposuna hoş geldiniz! Burada, bulut bilişim ve özellikle Amazon Web Services (AWS) hakkında kapsamlı bir rehber bulacaksınız. Bu rehber AWS Certified Solutions Architect Associate sınavına hazırlanırken oluşturduğum bir rehberdir. Bulut bilişim çağında, teknoloji dünyası hızla değişiyor ve geleneksel IT altyapılarının ötesine geçiyor. Bu rehber, bulut bilişimin temel kavramlarını anlamanıza ve AWS'nin gücünü keşfetmenize yardımcı olmak için tasarlanmıştır.
+
+## 🌐 Bulut Bilişim Nedir?
+
+Bulut bilişim, internet üzerinden sunulan kaynaklara erişimi sağlayan, depolama, hesaplama gücü ve diğer hizmetleri içeren bir teknoloji modelidir. Geleneksel fiziksel altyapı yerine, bulut bilişim sayesinde kaynakları ihtiyaca göre ölçeklendirebilir, esneklik kazanabilir ve maliyetleri optimize edebilirsiniz. Bu rehber, bulut bilişimin sunduğu avantajları ve temel prensipleri detaylı bir şekilde ele alacak.
+
+## ☁️ Amazon Web Services (AWS)
+
+Amazon Web Services (AWS), dünyanın önde gelen bulut bilişim sağlayıcılarından biridir. AWS'nin geniş hizmet yelpazesi, işletmelerin ve bireylerin ihtiyaçlarına uygun çeşitli çözümler sunar. Depolama, hesaplama, veritabanları, yapay zeka, ağ hizmetleri ve daha fazlası AWS'nin sağladığı hizmetler arasında yer alır. Bu rehberde, AWS'nin temel hizmetleri hakkında ayrıntılı bilgi bulabilirsiniz.
+
+## 📂 Repository'nin Amacı
+
+Bu GitHub deposunu oluşturma amacım, bulut bilişim ve özellikle AWS hakkında Türkçe kaynak eksikliğini gidermektir. Teknolojiye olan ilgi sürekli artıyor ve bu alandaki bilgiye erişim herkes için önemlidir. Bu rehber, hem bulut bilişim konusunda yeni başlayanlara hem de deneyimli profesyonellere hitap edecek şekilde tasarlandı. İçeriğim, konuları anlaşılır bir dilde ele alacak, temel kavramları açıklayacak ve AWS'nin çeşitli hizmetlerini kullanmaya yönelik pratik rehberlik sunacaktır.
+
+## 📚 İçerik Özeti
+
+Rehberimde şunları bulabilirsiniz:
+
+-   Bulut bilişim ve temel kavramlarının anlaşılır açıklamaları
+-   AWS'nin temel hizmetleri ve nasıl kullanılacağına dair adım adım kılavuzlar
+-   Gerçek dünya senaryoları ve kullanım örnekleri
+-   İleri seviye konular ve en iyi uygulamalar
+-   Topluluk katkılarına ve güncellemelere açık bir yapı
+
+Bu rehber, her seviyeden okuyuculara hitap edecek şekilde hazırlandı. Eğer siz de bulut bilişim ve AWS konularına ilgi duyuyorsanız, bu rehberi takip ederek bilginizi genişletebilir ve bu teknolojileri daha etkin bir şekilde kullanabilirsiniz.
+
+## 🤝 Katkıda Bulunma
+
+Bu reposu daha da değerli kılmak için katkıda bulunmaktan çekinmeyin! Hataları düzeltmek, eksik bilgileri eklemek veya yeni içerikler önermek için pull istekleri gönderebilirsiniz. Topluluğun bir parçası olarak, hep birlikte bu rehberi daha kapsamlı hale getirebiliriz.
+
+Sağladığınız destek için şimdiden teşekkür ederiz!
+
+Hadi başlayalım ve bulut bilişim ile AWS dünyasına birlikte adım atalım!
+
+## İÇİNDEKİLER
 
 #### [0. GİRİŞ](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/00-overview)
 - [0.1. Önsöz](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/00-overview/00-preface.md#%C3%B6ns%C3%B6z)
@@ -431,3 +471,20 @@
 	- [4.28.1. Encryption Nedir?](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/27-usage-of-aws-KMS.md#281-encryption-nedir)
 	- [4.28.2. AWS KMS](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/27-usage-of-aws-KMS.md#282-aws-kms)
 	- [4.28.3. KMS Servisinin Kullanımı](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/27-usage-of-aws-KMS.md#283-kms-servisinin-kullan%C4%B1m%C4%B1)
+- [4.29. AWS Directory Service](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/28-usage-of-aws-directory.md#29-aws-directory-service)
+- [4.30. AWS Snowball](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/29-usage-of-aws-snowball.md#30-aws-snowball)
+- [4.31. AWS Storage Gateway](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/30-usage-of-storage-gateway.md#31-aws-storage-gateway)
+	- [4.31.1. Amazon S3 File Gateway](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/30-usage-of-storage-gateway.md#311-amazon-s3-file-gateway)
+	- [4.31.2. Amazon FSx File Gateway](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/30-usage-of-storage-gateway.md#312-amazon-fsx-file-gateway)
+	- [4.31.3. Tape Gateway](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/30-usage-of-storage-gateway.md#313-tape-gateway)
+	- [4.31.4. Volume Gateway](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/30-usage-of-storage-gateway.md#314-volume-gateway)
+- [4.32. AWS Organizations](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/31-usage-of-aws-organizations.md#32-aws-organizations)
+	- [4.32.1. Avantajları](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/31-usage-of-aws-organizations.md#321-avantajlar%C4%B1)
+- [4.33. AWS DataSync](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/31-usage-of-aws-organizations.md#321-avantajlar%C4%B1)
+- [4.34. Amazon FSx For Windows File Server](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/33-usage-of-amazon-fsx-for-windows-file-server.md#34-amazon-fsx-for-windows-file-server)
+- [4.35. Amazon Aurora Serverless](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/34-usage-of-amazon-aurora-serverless.md#35-amazon-aurora-serverless)
+- [4.36. AWS Global Accelerator](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/35-usage-of-aws-global-accelerator.md#36-aws-global-accelerator)
+- [4.37. AWS Control Tower](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/36-usage-of-aws-control-tower.md#37-aws-control-tower)
+- [4.38. AWS Backup](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/37-usage-of-aws-backup.md#38-aws-backup)
+- [4.39. AWS Transfer Family](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/38-usage-of-aws-transfer-family.md#39-aws-transfer-family)
+- [4.40. AWS CloudShell](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/04-detailed-review-of-featured-services/39-usage-of-cloudshell.md#40-aws-cloudshell)
