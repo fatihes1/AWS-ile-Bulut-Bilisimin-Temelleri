@@ -89,7 +89,7 @@ Hadi başlayalım ve bulut bilişim ile AWS dünyasına birlikte adım atalım!
 	- [3.1.13. AWS Lake Formation](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/03-services-of-aws/00-analysis-services.md#112-aws-glue)
 - [3.2. AR ve VR Servisleri](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/03-services-of-aws/01-ar-and-vr-services.md)
 	- [3.2.1. Amazon Sumerian](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/03-services-of-aws/01-ar-and-vr-services.md#21-amazon-sumerian)
--[3.3. Ağ İletişimi ve İçerik Teslimi Servisleri](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/03-services-of-aws/02-networking-and-content-delivery-services.md)
+- [3.3. Ağ İletişimi ve İçerik Teslimi Servisleri](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/03-services-of-aws/02-networking-and-content-delivery-services.md)
 	- [3.3.1. Amazon CloudFront](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/03-services-of-aws/02-networking-and-content-delivery-services.md#31-amazon-cloudfront)
 	- [3.3.2. Amazon Route 53](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/03-services-of-aws/02-networking-and-content-delivery-services.md#32-amazon-route-53)
 	- [3.3.3. Amazon Virtual Private Cloud - VPC (Sanal Özel Bulut)](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/03-services-of-aws/02-networking-and-content-delivery-services.md#33-amazon-virtual-private-cloud--vpc-sanal-%C3%B6zel-bulut)
