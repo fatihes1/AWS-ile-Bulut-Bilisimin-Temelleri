@@ -38,7 +38,7 @@ Sağladığınız destek için şimdiden teşekkür ederiz!
 
 Hadi başlayalım ve bulut bilişim ile AWS dünyasına birlikte adım atalım!
 
-## İÇİNDEKİLER
+## :books: İÇİNDEKİLER
 
 #### [0. GİRİŞ](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/00-overview)
 - [0.1. Önsöz](https://github.com/fatihes1/AWS-ile-Bulut-Bilisimin-Temelleri/blob/main/00-overview/00-preface.md#%C3%B6ns%C3%B6z)
